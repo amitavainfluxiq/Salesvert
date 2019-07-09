@@ -343,4 +343,62 @@ figurecaption {position: absolute;top: 50%;left: 50%;color: #fff;}
 .home_block5 .mat-card-content h4 label{ margin: 0px;  width: 346px; height: 346px; display: table-cell; text-align: center; vertical-align: middle; font-size: 18px; color: #ffffff;  font-family: 'MontserratRegular'; line-height: 36px; font-weight: normal; }
 
 
-.home_block5_form{ background: #e5e6e6!important; box-shadow: none!important; border: none!important; border-radius: 5px!important;  padding: 10px!important; position: absolute!important; right: 0!important; top: 0!important;}
+.home_block5_form{ background: #e5e6e6!important; box-shadow: none!important; border: none!important; border-radius: 5px!important;  padding: 10px!important; position: absolute!important; right: 80px!important; top: 120px!important; width: 440px!important; display: block!important;}
+
+.home_block5_form .mat-card-subtitle{ background: #a39f9a; border-radius: 5px!important; padding: 20px;}
+
+.home_block5_form .mat-form-field{ display: block; width: 100%;     margin-bottom: 12px; }
+
+.homesubbtn{ display: block!important; width: 230px!important; line-height:48px!important; border: solid 1px #fff!important; border-radius: 5px!important; font-size: 20px; color: #fff!important;     font-family: 'MontserratBold'; font-size: 24px!important;   text-align: center; background:#fbf1e6; float: right; margin-top: 18px;  }
+
+
+.home_block5_form .mat-form-field-appearance-legacy .mat-form-field-wrapper {
+    padding-bottom: 0px;
+}
+
+.home_block5_form textarea{ resize: none!important;}
+
+.home_block5_form input.mat-input-element {
+    height: 37px;
+    color: #000!important;
+    font-family: 'MontserratRegular';
+    background: #fff;
+}
+
+.home_block5_form .mat-form-field-appearance-legacy .mat-form-field-label {
+    color: #000;
+    font-size: 14px;
+    height: auto;
+}
+
+.home_block5_form .mat-form-field-appearance-legacy .mat-form-field-underline{ display: none;}
+
+.home_block5_form textarea.mat-input-element {
+    padding: 2px 0;
+    margin: 0;
+    background: #fff;     height: 40px;  font-family: 'MontserratRegular';  font-size: 14px;  color: #000!important;
+}
+
+
+.home_block5_form .mat-form-field-appearance-legacy .mat-form-field-infix {
+    padding: 0 10px;
+    background: #fff;
+}
+.home_block5_form .mat-form-field-infix{ border: 0px!important;}
+
+.home_block5_form input.mat-input-element {
+    margin-top: 0;
+}
+
+.home_block5_form .mat-form-field-appearance-legacy .mat-form-field-label {
+    top: 20px; padding: 2px 10px; background: #fff;
+}
+
+.home_block5_form  .mat-input-element {
+    caret-color: #000;
+}
+
+
+.home_block5_form  .mat-form-field-can-float.mat-form-field-should-float .mat-form-field-label {
+    display: none !important;
+}

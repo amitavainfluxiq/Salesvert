@@ -10,6 +10,7 @@ import { HomeComponent } from './home/home.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
+import{ ReactiveFormsModule, FormsModule} from '@angular/forms'
 
 @NgModule({
   declarations: [
@@ -22,7 +23,9 @@ import { FooterComponent } from './footer/footer.component';
     DemoMaterialModule,
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    ReactiveFormsModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
