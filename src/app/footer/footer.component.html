@@ -1,3 +1,48 @@
-<p>
-  footer works!
-</p>
+<mat-card-footer class="mainfooter">
+
+  <mat-card-content class="mainfooter_wrapper">
+
+
+    <mat-card-content class="mainfooter_block1">
+
+      <mat-card-subtitle class="mainfooter_block1_con1">
+        <h2>LOREM IPSUM</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur
+          adipiscing elit, sed do eiusmod tempor
+          incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+          exercitation ullamco laboris nisi ut
+          aliquip ex ea </p>
+
+      </mat-card-subtitle>
+      <mat-card-subtitle class="mainfooter_block1_con2">
+        <ul>
+
+        <li [ngClass]="router.url === '/' ? 'active' : ''"><button mat-menu-item base  [routerLink]="['/']">Home</button></li>
+        <li [ngClass]="router.url === '/' ? 'active' : ''"><button mat-menu-item base  [routerLink]="['/']">Platform Features </button></li>
+        <li [ngClass]="router.url === '/' ? 'active' : ''"><button mat-menu-item base  [routerLink]="['/']">Our Team</button></li>
+        <li [ngClass]="router.url === '/' ? 'active' : ''"><button mat-menu-item base  [routerLink]="['/']">Contact Us</button></li>
+        </ul>
+
+      </mat-card-subtitle>
+      <mat-card-subtitle class="mainfooter_block1_con3">
+
+        <h3>customer service <a href="tel:(+000) 000-000-000">(+000) 000-000-000</a></h3>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, </p>
+      </mat-card-subtitle>
+
+
+
+    </mat-card-content>
+
+    <mat-card-content class="mainfooter_block2">
+
+<p>&copy; 2019, SalesVert. All Rights Reserved.</p>
+
+    </mat-card-content>
+
+
+
+  </mat-card-content>
+
+</mat-card-footer>
