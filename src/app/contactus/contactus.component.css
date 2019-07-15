@@ -1,0 +1,2 @@
+.contactusbannerbg {box-shadow: none!important;border: none!important;border-radius: 0px!important;background: url(../../assets/images/contactus_banner.jpg) #faf7f4 no-repeat right bottom!important;position: relative!important;min-height: 511px;display: -webkit-box;display: flex;-webkit-box-align: center;align-items: center;background-size: cover !important;}
+.inner_banner.contactusbannerbg.generalcls .mat-card-title{color:#31282f; font-size: 100px !important;}
