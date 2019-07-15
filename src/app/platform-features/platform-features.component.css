@@ -86,7 +86,7 @@
     .platformfeatures_block5_bottom {margin-top: -6%;}
 }
 
-@media only screen and (max-width: 1280px)
+@media only screen and (max-width: 1280px){
     .platformfeatures_block5_bottom {margin-top: -4%;}
 }
 
