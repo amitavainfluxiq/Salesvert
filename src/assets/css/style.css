@@ -537,10 +537,10 @@ figurecaption {position: absolute;top: 50%;left: 50%;color: #fff;}
 .s_ourteamblk-1{ box-shadow: none!important; border-radius: 0!important; background: url("../images/teamBlk1Banner.jpg") no-repeat 100% center!important;  min-height: 485px;
     position: relative!important;}
 
-.s_ourteamblk-1 .s_blk-1_inner_wrapper{position: absolute; width:630px; top: 50%;
-    left:30%; transform: translate(-50%, -50%); }
-.s_ourteamblk-1 .s_blk-1_inner_wrapper .s_blk-1_heading{ font-size: 100px; text-transform: uppercase; font-family: 'MontserratBold'; color: #0c1f27; margin-bottom: 0; line-height: 100px; }
-.s_ourteamblk-1 .s_blk-1_inner_wrapper .s_blk-1_para{ font-size: 30px; text-transform: uppercase; font-family: 'MontserratBold'; color: #0c1f27; line-height: 32px;}
+.s_ourteamblk-1 .s_blk-1_inner_wrapper{position: absolute; width:690px; top: 50%;
+    left:27%; transform: translate(-50%, -50%); }
+.s_ourteamblk-1 .s_blk-1_inner_wrapper .s_blk-1_heading{ font-size: 100px; text-transform: uppercase; font-family: 'MontserratBold'; color: #0c1f27; margin-bottom: 0; line-height: 110px; }
+.s_ourteamblk-1 .s_blk-1_inner_wrapper .s_blk-1_para{ font-size: 30px; text-transform: uppercase; font-family: 'MontserratBold'; color: #0c1f27; line-height: 36px;}
 
 .s_ourteamblk-2{ border-radius: 0!important; box-shadow: none!important; position: relative!important; padding: 75px 20px!important;  background: #fdfaf7!important;}
 
@@ -568,7 +568,7 @@ figurecaption {position: absolute;top: 50%;left: 50%;color: #fff;}
 .blok2_sub .items .mat-list-item{font-family: 'MontserratMedium';  font-size: 17px;  padding-left: 5px;  position: relative; height: auto!important; margin: 15px 0; }
 .blok2_sub .items .mat-list-item ::before { content: '';  position: absolute; top: 45%; left: 0px; width: 2px;  height: 8px; background: #0c1f27; }
 .blok2_sub .items .mat-list-item a{ text-decoration: none; color: #0c1f27; }
-
+.blok2_sub .items .mat-list-item .mat-list-item-content{ display: block!important;}
 /*blok2_sub2*/
 
 .blok2_sub2{ border: 2px solid #9c846c; padding: 20px!important; box-shadow: none!important; width: 100%; margin-top: 35px;}
@@ -577,8 +577,32 @@ figurecaption {position: absolute;top: 50%;left: 50%;color: #fff;}
 .blok2_sub2 .blok2_sub2_para .para_font{ font-size: 20px;  font-family: 'MontserratSemiBold'; }
 .blok2_sub2 .blok2_sub2_para .para_font a{ color: #ff2b2b; }
 
-.hidden_image{position: absolute; right:-30px; bottom: 0;}
+.hidden_image{position: absolute; right: 0px; bottom: 35px;}
 
 /*Meet the team  section*/
-.ourTeamblok{ }
+.ourTeamblok { box-shadow: none!important; padding: 0!important; border-radius: 0!important; position: relative;
+    background-image: linear-gradient(to left top, #f8d9bc, #f8d7b9, #f8d6b6, #f7d4b3, #f7d2b0, #f7d3b2, #f6d4b4, #f6d5b6, #f6d9bd, #f6ddc5, #f6e1cc, #f6e5d4)!important; padding-bottom: 50px!important;
+}
+
+.ourTeamblok .header{ 
+    text-align: center; 
+    background-image: url(../images/platformfeatures_block3_rightbg.png), url(../images/platformfeatures_block3_leftbg.png)!important;  
+    background-repeat: no-repeat, no-repeat!important; background-position: -8% center, right center!important; background-color: #f2bd89!important;
+    background-size: contain, contain!important; font-family: 'MontserratBold'; font-size: 30px; text-transform: uppercase; margin-bottom: 0!important; padding: 30px; color: #0c1f27;  }
+
+.team_inner_wrapper{ width: 1310px; margin: 0 auto; margin-top: 40px; justify-content: center; display: flex!important;flex-wrap: wrap; }
+.team_inner_wrapper .inner_wrap{ text-align: center; width: 396px; background: #fff; margin: 1.5%; justify-content: center; align-items: center; display: flex;
+    flex-direction: column; padding: 35px 0;}
+.team_inner_wrapper .inner_wrap .img_wrap{ max-height: 282px;}
+.team_inner_wrapper .mat-card-content:first-child {
+    margin-top: 1.5%!important;
+}
+.team_inner_wrapper .mat-card-content:last-child  {
+    margin-bottom: 1.5%!important;
+}
+.team_inner_wrapper .mat-card-content img{ width: 100%;}
+.team_inner_wrapper .inner_wrap .mat-card-title{ font-family: 'MontserratSemiBold'; color: #2a2e33; font-size: 26px; text-transform: uppercase; }
+.team_inner_wrapper .inner_wrap .mat-card-subtitle{ font-family: 'Montserrat'; font-size:20px; text-transform: capitalize; }
+.team_inner_wrapper  .top_left{ position: absolute; top: 10%; left: 0px;}
+.team_inner_wrapper .bottom_right{ position: absolute; bottom: 100px; right: 0px; transform: rotate(-180deg); }
 /*Subrata END css*/

@@ -2,20 +2,23 @@
     .home_block5 .mat-card-content h2 br{ display: none;}
 }
 @media only screen and (max-width: 1780px) {
-    .home_block3 {
-        padding-left: 30px!important;
-    }
-
-    .home_block_new_textcontain {
-        width: 1000px;}
+    .home_block3 { padding-left: 30px!important; } 
+    .home_block_new_textcontain { width: 1000px; }
+    .s_ourteamblk-1 { background-position: 85% center!important;}
+    .hidden_image{ display: none;}
 }
 
+@media only screen and (max-width: 1740px) {
+    .s_ourteamblk-1 .s_blk-1_inner_wrapper { left: 25%; }
+    .s_ourteamblk-2 .blok2_inner_wrapper { width: 1500px; }
+    .s_ourteamblk-2 .blok2_inner_wrapper .inner_left_container .img_wrapper { width: 410px; height: 385px; }
+    .blok2_sub .items { width: 28%; }
+}
 @media only screen and (max-width: 1680px) {
-    .home_block2{ background-position: -100px bottom!important;     padding: 0 100px 0 720px!important;}
-
-    .home_block2 .mat-card-content h2 {
-        margin: 0 0 20px 0;     font-size: 40px;}
-
+    .home_block2{ background-position: -100px bottom!important; padding: 0 100px 0 720px!important;}
+    .home_block2 .mat-card-content h2 {  margin: 0 0 20px 0; font-size: 40px;}
+    .s_ourteamblk-1 .s_blk-1_inner_wrapper .s_blk-1_heading { font-size: 95px; }
+    .s_ourteamblk-1 .s_blk-1_inner_wrapper .s_blk-1_para { font-size: 28px; }
 }
 
 @media only screen and (max-width: 1660px) {
@@ -58,12 +61,23 @@
 
     .pic-wrapper .figure1{ background-position: 0px top!important;}
     .pic-wrapper .figure2{ background-position: 0px top!important;}
-
+    .s_ourteamblk-1 { background-position: 80% center!important; }
+    .s_ourteamblk-2 .blok2_inner_wrapper { width: 1380px; }
+    .s_ourteamblk-2 .blok2_inner_wrapper .inner_right_container { width: 67%; }
+    .s_ourteamblk-2 .blok2_inner_wrapper .inner_left_container .img_wrapper{ width: 395px; height: 370px; }
+    .s_ourteamblk-2 .blok2_inner_wrapper .inner_right_container .blk2-para{ line-height: 28px; }
+    .blok2_sub .items { width: 26%; }
+    .blok2_sub .items { width: 30%;}
+    .blok2_sub .items:last-child { width: 40%; }
 }
 
+ 
 @media only screen and (max-width: 1550px) {
-
-
+    .s_ourteamblk-1 { background-position: 45% center!important; }
+    .s_ourteamblk-1 .s_blk-1_inner_wrapper { left: 27%; }
+.s_ourteamblk-1 {
+    background-position: 45% center!important;
+}
     .home_block5{ background-position: -170px bottom!important; padding: 0px 530px 0px 410px!important;}
 
     .home_block5_form{ right: 40px!important;}
@@ -77,36 +91,21 @@
 
 
 @media only screen and (max-width: 1480px) {
-    .header_top .header_top_wrapper{   width: 1280px;}
-
-    .pic-wrapper .figure1 {
-        background-position: -70px top!important;
-    }
-
-    .pic-wrapper .figure2 {
-        background-position: -260px top!important;
-    }
-
-
+    .header_top .header_top_wrapper{ width: 1280px; }
+    .pic-wrapper .figure1 { background-position: -70px top!important; }
+    .pic-wrapper .figure2 { background-position: -260px top!important; }
     .vpblock1bg .vpblock1wrapper .vpblock1wrappercontent { padding: 8px 0px 8px 40px;  }
-
-    .home_block3 {
-        padding: 0 480px 0 30px!important;
-        background-position: 148% top !important;
-    }
+    .home_block3 { padding: 0 480px 0 30px!important; background-position: 148% top !important; }
+    .s_ourteamblk-1 { background-position: 55% center!important; }
+    .s_ourteamblk-2 .blok2_inner_wrapper .inner_right_container { width: 60%; }
+    .s_ourteamblk-2 .blok2_inner_wrapper { width: 1300px; }
+    .s_ourteamblk-2 .blok2_inner_wrapper .inner_left_container .img_wrapper { width: 433px; height: 410px; }
 }
 
 
 @media only screen and (max-width: 1450px) {
-
-    .home_block3 {
-        padding: 0 460px 0 30px!important;
-        background-position: 158% top !important;
-    }
+    .home_block3 { padding: 0 460px 0 30px!important; background-position: 158% top !important; }
 }
-
-
-
 
 @media only screen and (max-width: 1440px) {
 
@@ -114,7 +113,9 @@
     background-position: -240px bottom!important;
     padding: 0 80px 0 580px!important;
 }
-
+.team_inner_wrapper .top_left, .team_inner_wrapper .bottom_right  { display: none;}
+.team_inner_wrapper .inner_wrap { width: 380px; margin: 1%; }
+.team_inner_wrapper .mat-card-content:first-child { margin-top: 1%!important; }
 }
 
 @media only screen and (max-width: 1420px) {
@@ -127,17 +128,14 @@
         width: 710px;
     }
 
-
-
-
     }
 
 @media only screen and (max-width: 1400px) {
-    .home_block3 {
-        padding: 0 420px 0 30px!important;
-        background-position: 164% top !important;
-    }
-
+    .home_block3 { padding: 0 420px 0 30px!important; background-position: 164% top !important; }
+    .s_ourteamblk-1 .s_blk-1_inner_wrapper { left: 27%; width: 585px; }
+    .s_ourteamblk-1 .s_blk-1_inner_wrapper .s_blk-1_heading { font-size: 90px; }
+    .s_ourteamblk-1 .s_blk-1_inner_wrapper .s_blk-1_para { font-size: 24px; line-height: 30px; }
+     
 }
 
 @media only screen and (max-width: 1380px) {
@@ -147,6 +145,12 @@
     }
 }
 
+@media only screen and (max-width: 1366px) {
+    .s_ourteamblk-2 .blok2_inner_wrapper { width: 1240px; }
+    .s_ourteamblk-2 .blok2_inner_wrapper .inner_right_container .blk2-para { line-height: 24px; padding: 25px; }
+    .s_ourteamblk-2 .blok2_inner_wrapper .inner_right_container { width: 62%; }
+    .blok2_sub .items .mat-list-item {font-size: 15px;}
+}
 @media only screen and (max-width: 1360px) {
 
     .home_block5 {
@@ -159,106 +163,62 @@
     }
 
 @media only screen and (max-width: 1350px) {
-    .pic-wrapper .figure1 {
-        background-position: -140px top!important;
-    }
-
-    .home_block3 {
-        padding: 0 400px 0 20px!important;
-        background-position: 178% top !important;
-    }
+    .pic-wrapper .figure1 { background-position: -140px top!important; }
+    .home_block3 { padding: 0 400px 0 20px!important; background-position: 178% top !important; }
 }
 
 
 @media only screen and (max-width: 1320px) {
 
-    .home_block4 .mat-card-content {
-        width: 1180px;}
-    .home_block4 .mat-card-content ul li strong {
-        font-size: 15px;
-    }
-
+    .home_block4 .mat-card-content { width: 1180px; }
+    .home_block4 .mat-card-content ul li strong { font-size: 15px; }
     .home_block_new_wrapper{ width: 1180px;}
-
-
-    .home_block_new_textcontain {
-        width: 590px;
-    }
-
-    .home_block_new_textcontain h2 {
-        font-size: 28px;
-        line-height: 35px;
-    }
-
+    .home_block_new_textcontain { width: 590px; }
+    .home_block_new_textcontain h2 { font-size: 28px; line-height: 35px; }
+    .s_ourteamblk-2 .blok2_inner_wrapper { width: 1185px; }
+    .s_ourteamblk-2 .blok2_inner_wrapper .inner_right_container .blk2-heading { padding: 25px!important; }
+    .s_ourteamblk-2 .blok2_inner_wrapper .inner_right_container { width: 60%; }
+    .team_inner_wrapper { width: 1160px; }
+    .team_inner_wrapper .inner_wrap { width: 360px; padding: 25px 0;}
+    .team_inner_wrapper .inner_wrap .mat-card-title { font-size: 24px; }
+    .team_inner_wrapper .inner_wrap .mat-card-subtitle { font-size: 18px;}
 }
 
 
 
 
 @media only screen and (max-width: 1300px) {
-
-    .home_block3 {
-        padding: 0 380px 0 20px!important;
-        background-position: 188% top !important;
-    }
-
-    .home_block3 .mat-card-content .beto_img1 {
-        float: left;
-        margin-top: -14px;
-    }
-
+    .home_block3 { padding: 0 380px 0 20px!important; background-position: 188% top !important; }
+    .home_block3 .mat-card-content .beto_img1 { float: left;  margin-top: -14px; }
     .home_block3 .mat-card-content .mat-card-subtitle h3 label{ display: block; border: none; padding: 0px; margin: 10px 0 0 0;}
 }
 
 @media only screen and (max-width: 1280px) {
 
-    .home_block5 .mat-card-content h2 {
-        font-size: 23px;
-    }
-    .header_top .header_top_wrapper{   width: 1190px;}
-
-    .mainfooter_wrapper{    width: 1160px;}
-
-    .mainfooter_block1_con2 {
-        width: 145px;
-        float: left;
-        margin: 0 172px;
-    }
-
-    .pic-wrapper .figure1 {
-        background-position: -200px top!important;
-    }
-
-    .pic-wrapper .figure2 {
-        background-position: -370px top!important;
-    }
-
+    .home_block5 .mat-card-content h2 { font-size: 23px; }
+    .header_top .header_top_wrapper{width: 1190px;}
+    .mainfooter_wrapper{width: 1160px;}
+    .mainfooter_block1_con2 { width: 145px; float: left; margin: 0 172px; }
+    .pic-wrapper .figure1 {  background-position: -200px top!important; }
+    .pic-wrapper .figure2 { background-position: -370px top!important; }
     .vpblock1bg .vpblock1wrapper{ width: 500px;}
-
     .vpblock1bg .vpblock1wrapper .vpblock1wrappercontent h3 {font-size: 180px; line-height: 170px;}
-
-
-    .home_block2 {
-        background-position: -255px bottom!important;
-        padding: 0 40px 0 570px!important;
-    }
+    .home_block2 { background-position: -255px bottom!important; padding: 0 40px 0 570px!important; }
 }
 
 
+@media only screen and (max-width: 1240px) {
+    .s_ourteamblk-2 .blok2_inner_wrapper { width: 1130px; }
+    .s_ourteamblk-2 .blok2_inner_wrapper .inner_left_container .img_wrapper { width: 405px; height: 380px; }
+    .s_ourteamblk-2 .blok2_inner_wrapper .inner_right_container { width: 100%; margin-top: 25px; }
+}
 @media only screen and (max-width: 1199px) {
-
-
-    .home_block_new_wrapper {
-        width: 90%;
-    }
-
-
-    .home_block_new_textcontain {
-        width: 100%;
-        height: auto;
-        display: block!important;
-        vertical-align: middle;
-    }
+    .s_ourteamblk-2 .blok2_inner_wrapper { width: 90%; margin: 0 auto; align-items: center; justify-content: center;  }
+    .team_inner_wrapper { width: 90%;}
+    .team_inner_wrapper .inner_wrap { width: 31%; padding: 15px 0; }
+    .team_inner_wrapper .inner_wrap .footer_caption{margin-top: 15px;}
+    .home_block_new_wrapper {width: 90%; }  
+    .home_block_new_textcontain {width: 100%; height: auto;display: block!important; vertical-align: middle;}
 
     .home_block_new_div2{ background-position: center 15px!important; background-size: 588px!important;     padding-top: 430px!important; padding-bottom: 35px!important;}
 
