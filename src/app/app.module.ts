@@ -5,7 +5,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
 import {DemoMaterialModule} from '../app/material-module';
-
 import { HomeComponent } from './home/home.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HeaderComponent } from './header/header.component';
@@ -14,6 +13,9 @@ import{ ReactiveFormsModule, FormsModule} from '@angular/forms';
 import { PlatformFeaturesComponent } from './platform-features/platform-features.component';
 import { OurteamComponent } from './ourteam/ourteam.component';
 import { ContactusComponent } from './contactus/contactus.component'
+import { from } from 'rxjs';
+import { HttpClientModule} from '@angular/common/http';
+
 
 @NgModule({
   declarations: [
@@ -31,7 +33,8 @@ import { ContactusComponent } from './contactus/contactus.component'
     AppRoutingModule,
     BrowserAnimationsModule,
     ReactiveFormsModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

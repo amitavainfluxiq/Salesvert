@@ -106,10 +106,10 @@ a:focus{outline:none;outline:none;outline-offset:inherit;}
 .top_menu{ width: 480px; float: right; padding-top: 15px; display: block!important;}
 
 
-.top_menu button{ border: none; outline: none; color: #fff; font-family: 'MontserratMedium'; text-transform: capitalize;     font-weight: normal; font-size: 14px; cursor: pointer;}
+.top_menu button{ background: transparent!important; border: none; outline: none; color: #fff; font-family: 'MontserratMedium'; text-transform: capitalize;     font-weight: normal; font-size: 14px; cursor: pointer;}
 
 .top_menu button:hover{ color: #edba8a;  }
-
+.top_menu button .mat-ripple, .mainfooter_block1_con2 button .mat-ripple { display: none; }
 /*Strip the ul of padding and list styling*/
 .top_menu ul {
     list-style-type:none;
@@ -502,7 +502,7 @@ figurecaption {position: absolute;top: 50%;left: 50%;color: #fff;}
     .platformfeatures_block7_bottom {margin-top: 0 !important;display: inline-block;width: 85%}
     .platformfeatures_block7_content:nth-child(odd) .parent .child:nth-child(2) img {margin-right: -10% !important}
 }
-@media only screen and (max-width: 1540px) {   .inner_banner_content {padding-left: 120px;width: 40%}
+@media only screen and (max-width: 1540px) {   .inner_banner_content {padding-left: 120px;width: 47%}
 }
 @media only screen and (max-width: 1280px) {.inner_banner.generalcls .mat-card-title {font-size: 42px !important;line-height: normal !important;}
 }
@@ -594,7 +594,7 @@ figurecaption {position: absolute;top: 50%;left: 50%;color: #fff;}
 .team_inner_wrapper .inner_wrap{ text-align: center; width: 396px; background: #fff; margin: 1.5%; justify-content: center; align-items: center; display: flex;
     flex-direction: column; padding: 35px 0;}
 .team_inner_wrapper .inner_wrap .img_wrap{ max-height: 282px;}
-.team_inner_wrapper .mat-card-content:first-child {
+.team_inner_wrapper .inner_wrap:first-child {
     margin-top: 1.5%!important;
 }
 .team_inner_wrapper .mat-card-content:last-child  {
@@ -605,4 +605,65 @@ figurecaption {position: absolute;top: 50%;left: 50%;color: #fff;}
 .team_inner_wrapper .inner_wrap .mat-card-subtitle{ font-family: 'Montserrat'; font-size:20px; text-transform: capitalize; }
 .team_inner_wrapper  .top_left{ position: absolute; top: 10%; left: 0px;}
 .team_inner_wrapper .bottom_right{ position: absolute; bottom: 100px; right: 0px; transform: rotate(-180deg); }
+
+/* Contact us form blok start */
+.contactusbannerbg {    margin-bottom: -17px!important; box-shadow: none!important;border: none!important;border-radius: 0px!important;background: url(../../assets/images/contactus_banner.jpg) #faf7f4 no-repeat right bottom!important;position: relative!important;min-height: 511px;display: -webkit-box;display: flex;-webkit-box-align: center;align-items: center;background-size: cover !important;}
+.inner_banner.contactusbannerbg.generalcls .mat-card-title{color:#31282f; font-size: 100px !important;}
+    .contact_us_formBlk{ background: url(../images/contactus_2ndBlokBg.png) no-repeat!important; background-origin: center center!important; background-size: cover!important; padding:0!important; border-radius: 0!important; box-shadow: none!important; }
+    .contact_body{ background: url(../images/contactus_2ndBlokBg.png) no-repeat!important; background-position: center center!important; background-size: cover!important; padding:50px 30px!important; border-radius: 0!important; box-shadow: none!important;}
+    .contact_wrapper{ width: 1250px; margin: 0px auto!important; margin-bottom: 0px!important; padding-bottom: 40px!important;
+        background: #a39f9a; padding: 50px; position: relative; }
+    .contact_wrapper h2{ margin: 0; padding: 0 0 25px 0; font-size: 48px !important;font-family: 'ArnoPro';color: #3e3e3e;text-align: center;text-transform: uppercase;position: relative;}
+    .contact_wrapper .mat-card-subtitle{ display: block; width: 100%;}
+    .contact_wrapper .mat-card-subtitle input{font-family: 'Montserrat-Regular'!important;  font-size: 14px!important; color: #000000!important; font-weight: normal!important;}
+    .contact_wrapper textarea{font-family: 'Montserrat-Regular'!important;  font-size: 14px!important; color: #000000!important; font-weight: normal!important;}
+    .contact_wrapper .mat-card-subtitle p{ font-size: 16px; color: #281e1e;font-family: 'MontserratSemiBold'!important; margin: 12px 0 5px 0; padding: 0 0.5%;  text-transform: uppercase;}
+    .contact_wrapper .mat-card-subtitle p span{ color: #ff0000;}
+    .contact_wrapper .mat-card-subtitle:nth-of-type(1) .mat-form-field{ width: 49%; margin: 0 0.5%;}
+    .contact_wrapper .mat-card-subtitle:nth-of-type(2) .mat-form-field:nth-of-type(1){ width: 99%; margin: 0 0.5%;}
+    .contact_wrapper .mat-card-subtitle:nth-of-type(2) .mat-form-field:nth-of-type(2){ width: 25%; margin: 0 0.5%; float: left;}
+    .contact_wrapper .mat-card-subtitle:nth-of-type(2) .mat-form-field:nth-of-type(3){ width: 25%; margin: 0 0.5%; float: left;}
+    .contact_wrapper .mat-card-subtitle:nth-of-type(2) .mat-form-field:nth-of-type(4){ width: 21%; margin: 0 0.5%; float: left;}
+    .contact_wrapper .mat-card-subtitle:nth-of-type(2) .mat-form-field:nth-of-type(5){ width: 25%; margin: 0 0.5%; float: left;}
+    .contact_wrapper .mat-card-subtitle:nth-of-type(3){ width: 49%; margin: 0 0.5%; display: block; float: left;}
+    .contact_wrapper .mat-card-subtitle:nth-of-type(4){ width: 49%; margin: 0 0.5%; display: block; float: left;}
+    .contact_wrapper .mat-card-subtitle:nth-of-type(3) .mat-form-field { width: 100%;}
+    .contact_wrapper .mat-card-subtitle:nth-of-type(4) .mat-form-field { width: 100%;}
+    .contact_wrapper .mat-card-subtitle:nth-of-type(5){  display: block; clear: both; overflow: hidden;}
+    .contact_wrapper .mat-card-subtitle:nth-of-type(5) .mat-form-field { width: 99%; margin: 0 0.5%;}
+    .contactsubbtn{ display: block!important; margin: 0 auto!important; width: 230px; height: 50px; font-size: 18px!important; color: #ffffff!important;
+        font-family: 'MontserratSemibold'!important; border: 1px solid #fff!important; margin-top: 50px!important; margin-bottom: 30px!important;
+    }
+    .contact_wrapper textarea{ resize: none!important;}
+    .contact_wrapper  .mat-form-field-can-float.mat-form-field-should-float .mat-form-field-label {display: none !important;}
+    .contact_wrapper input.mat-input-element {height: 48px;color: #000!important;font-family: 'Montserrat-Regular'!important;  margin-top: 0px; font-size: 14px; color: #000000;}
+    .contact_wrapper .mat-form-field-appearance-legacy .mat-form-field-infix {padding: 0 10px;background: #fff; margin-top: 5px;  height: 48px; font-size: 16px; color: #000000;}
+    .contact_wrapper textarea.mat-input-element {padding: 4px 0 0 0;margin: 0;}
+
+    .commentsubtitle textarea.mat-input-element{ height: 96%; font-family: 'Montserrat-Regular'!important;  font-size: 14px!important; color: #000000!important; font-weight: normal!important;}
+    .contact_wrapper .mat-form-field-appearance-legacy .mat-form-field-underline{ display: none;}
+    .contact_wrapper  .mat-input-element {caret-color: #000; height: 40px; font-family: 'Montserrat-Regular'!important;  font-size: 14px!important; color: #000000!important; font-weight: normal!important;}
+    .contact_wrapper  .mat-form-field-infix{ height: 48px; padding: 5px 10px; border-top: 0px!important; border: solid 1px #cfd1d3!important; background: #fff;}
+    .contact_wrapper .mat-form-field-appearance-legacy .mat-form-field-label {top: 28px;padding: 0 10px;  font-size: 16px; color: #000000;text-transform: initial;}
+    .inner_banner.contactusbannerbg.generalcls .mat-card-title {  padding-top: 15%!important; }
+    .mat-error {color: #f44336;font-size: 12px;}
+    
+    .commentsubtitle .mat-form-field-appearance-legacy .mat-form-field-infix{ height: 160px!important;}
+    .contact_wrapper .area .mat-form-field-infix { height: 160px!important;}
+    .contact_wrapper .mat-form-field input::placeholder,
+    .contact_wrapper .mat-form-field textarea::placeholder,
+    .contact_wrapper .mat-form-field select::placeholder {      
+        color: #303030!important;
+        font-family: 'MontserratRegular'!important; }
+
+        .contact_wrapper .lowerBg1{ position: absolute; bottom: 0; left: 0; }
+        .contact_wrapper .lowerBg2{ position: absolute; top: 0; right: 0; }
+
+
+        .contact_wrapper .mat-select-trigger { 
+            padding-top: 15px;
+        }
+
+    /* end blok */
 /*Subrata END css*/
+ 
